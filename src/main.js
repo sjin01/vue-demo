@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import routes from './routes'
+
 Vue.use(require('vue-resource'));
 
 const app = new Vue({
