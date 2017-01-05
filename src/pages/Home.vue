@@ -1,7 +1,7 @@
 <template>
   <main-layout>
     <p>Welcome home</p>
-    <p>inputData : {{val}}</p>
+    <p>val : {{val}}</p>
     <input type="text" v-model="val">
     <br>
     <button type="button" @click="setval">设置val</button>
